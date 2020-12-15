@@ -26,6 +26,9 @@
 
       this._preLoadColorScale();
     },
+    addColorScale: function(identifier, color_steps, percentage_steps) {
+      plotty.addColorScale(identifier, color_steps, percentage_steps)
+    },
     setColorScale: function setColorScale(colorScale) {
       this.options.colorScale = colorScale;
 
